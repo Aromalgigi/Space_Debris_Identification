@@ -12,9 +12,9 @@ test_path = os.path.join(dataset_path, "test")
 print("Checking dataset structure...")
 for folder in [train_path, valid_path, test_path]:
     if os.path.exists(folder):
-        print(f"✅ Found: {folder}")
+        print(f" Found: {folder}")
     else:
-        print(f"❌ Missing: {folder}")
+        print(f" Missing: {folder}")
 
 # Count images and labels
 def count_files(path):
